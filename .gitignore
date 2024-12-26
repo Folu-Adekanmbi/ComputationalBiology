@@ -30,3 +30,22 @@
 *.exe
 *.out
 *.app
+BMI Calculator/BMI Calculator.sln
+BMI Calculator/BMI Calculator.vcxproj
+BMI Calculator/BMI Calculator.vcxproj.filters
+BMI Calculator/BMI Calculator.vcxproj.user
+BMI Calculator/.vs/BMI Calculator/FileContentIndex/a6f5cefc-28be-4639-9f01-0b06beed735b.vsidx
+BMI Calculator/.vs/BMI Calculator/v17/Browse.VC.db
+BMI Calculator/.vs/BMI Calculator/v17/Browse.VC.db-shm
+BMI Calculator/.vs/BMI Calculator/v17/Browse.VC.db-wal
+BMI Calculator/.vs/BMI Calculator/v17/Browse.VC.opendb
+BMI Calculator/.vs/BMI Calculator/v17/ipch/AutoPCH/20872d7e16ef6b0b/BMI CALCULATOR.ipch
+*.pdb
+*.idb
+*.tlog
+*.log
+*.ilk
+*.recipe
+*.json
+BMI Calculator/.vs/BMI Calculator/v17/.suo
+*.vsidx
