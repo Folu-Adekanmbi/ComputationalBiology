@@ -1,6 +1,7 @@
 
 
 #include <iostream>
+#include <cmath>
 using namespace std;
 
 int main()
@@ -12,14 +13,19 @@ int main()
     cout << "How old are you?\n";
     cin >> age; 
     string sex;
-    cout << "What is your sex?\n";
+    cout << "What is your sex? F/M\n";
     cin >> sex;
     double height;
-    cout << "What's your height in centimetres? \n";
+    cout << "What's your height in metres? \n";
     cin >> height;
-    double weight;
-    cout << "What is your weight in kg\n";
-    cin >> weight;
+    double mass;
+    cout << "What is your mass in kg\n";
+    cin >> mass;
+
+    double formula = mass/pow(height,2) ;
+    cout << "Your BMI is" << " " << formula;
+
+
 
 
 
