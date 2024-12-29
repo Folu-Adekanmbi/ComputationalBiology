@@ -22,9 +22,21 @@ int main()
     cout << "What is your mass in kg\n";
     cin >> mass;
 
-    double formula = mass/pow(height,2) ;
-    cout << "Your BMI is" << " " << formula;
+    double bmi = mass/pow(height,2) ;
+    cout << "Your BMI is" << " " << bmi << endl;
 
+    if (bmi <= 18.5) {
+        cout << "You are underweight\n";
+    }
+    else if (bmi < 25) {
+        cout << "You are a normal weight\n";
+    }
+    else if (bmi < 30) {
+        cout << "You are overweight\n";
+    }
+    else {
+        cout << "You are obese\n";
+    }
 
 
 
